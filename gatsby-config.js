@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `A coder called Kev`,
+    title: `Code by Kev`,
     author: `Kevin Jones`,
     description: `Another coder blog... `,
-    siteUrl: `https://kev-who-codes.netlify.com/`,
+    siteUrl: `https://codebykev.netlify.com/`,
     social: {
       twitter: `kevcjones`,
     },
