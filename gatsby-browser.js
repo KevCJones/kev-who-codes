@@ -1,3 +1,4 @@
 // custom typefaces
-import "typeface-montserrat"
-import "typeface-merriweather"
+import "typeface-arvo"
+import "typeface-cabin"
+import "./src/scss/index.scss"

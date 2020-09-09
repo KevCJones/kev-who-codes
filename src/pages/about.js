@@ -11,7 +11,7 @@ class AboutPage extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="About" />
-        <h1>About me</h1>
+        <h1 className="text-red-600">About me</h1>
         <p>TODO</p>
       </Layout>
     )
