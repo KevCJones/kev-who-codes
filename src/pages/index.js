@@ -7,16 +7,23 @@ import Button from "../components/button"
 
 class IndexPage extends React.Component {
   render() {
-    const siteTitle = "Gatsby Starter Personal Website"
+    const siteTitle = "CODEBYKEV.DEV"
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="Home"
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+          keywords={[
+            `blog`,
+            `gatsby`,
+            `javascript`,
+            `react`,
+            "kevincjones.co.uk",
+            "kevcjones",
+          ]}
         />
         <img style={{ margin: 0 }} src="./GatsbyScene.svg" alt="Gatsby Scene" />
-        <h1>Well fuck me, how did you find this?</h1>
+        <h1>Coming soon</h1>
         <p>
           Another blog, another go at making a presences in the interwebs... I'm
           Kev, born in '82, i code, i lead a team of other guys (not called Kev)
