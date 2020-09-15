@@ -4,17 +4,14 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
+import { SocialIcon } from "react-social-icons"
 
 class IndexPage extends React.Component {
   render() {
     const siteTitle = "CODEBYKEV.DEV"
 
     return (
-      <Layout
-        location={this.props.location}
-        title={siteTitle}
-        image={"./bg_optim.jpg"}
-      >
+      <Layout location={this.props.location} title={siteTitle} bg={"keyboard"}>
         <SEO
           title="Home"
           keywords={[
@@ -29,15 +26,65 @@ class IndexPage extends React.Component {
         />
         <img
           src="./kev.jpg"
-          className="w-64 h-64 m-4 mx-auto mt-12 leading-8 border-2 border-gray-400 border-solid rounded-full shadow-lg md:my-4"
+          class="w-64 h-64 m-4 mx-auto mt-12 leading-8 border-2 border-blue-600 border-solid rounded-full shadow-lg md:my-4"
           alt="KevCJones"
         />
-        <div className="flex flex-col p-6 md:flex-row">
-          <h1 class="prose font-serif block md:w-2/5 text-2xl text-white pb-4 md:mr-3">
-            Hello, I’m <span className="text-blue-600">Kevin Jones</span>.{" "}
-            <br />
-            Ambitious, driven and communicative. Father and a tech lead.
-          </h1>
+        <div class="flex flex-col p-6 md:flex-row">
+          <div class="pb-4 md:mr-3 md:w-2/5">
+            <h1 class="prose font-serif text-2xl text-white">
+              Hello, I’m <span class="text-blue-600">Kevin Jones</span>. <br />
+              Ambitious, driven and communicative. Father and a tech lead.
+            </h1>
+            <SocialIcon
+              style={{
+                height: 25,
+                width: 25,
+                marginRight: "0.5em",
+                marginTop: "1em",
+              }}
+              bgColor="#3182ce"
+              fgColor="#fff"
+              url="http://twitter.com/kevcjones"
+              className="duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-125"
+            />
+            <SocialIcon
+              style={{
+                height: 25,
+                width: 25,
+                marginRight: "0.5em",
+                marginTop: "1em",
+              }}
+              bgColor="#3182ce"
+              fgColor="#fff"
+              url="https://www.linkedin.com/in/kevin-c-jones-7a22372/"
+              className="duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-125"
+            />
+            <SocialIcon
+              style={{
+                height: 25,
+                width: 25,
+                marginRight: "0.5em",
+                marginTop: "1em",
+              }}
+              bgColor="#3182ce"
+              fgColor="#fff"
+              url="https://github.com/kevcjones"
+              className="duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-125"
+            />
+            <SocialIcon
+              style={{
+                height: 25,
+                width: 25,
+                marginRight: "0.5em",
+                marginTop: "1em",
+              }}
+              network="whatsapp"
+              bgColor="#3182ce"
+              fgColor="#fff"
+              url="https://t.me/codebykev"
+              className="duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-125"
+            />
+          </div>
           <div class="md:w-3/5 md:ml-3">
             <p class="prose text-white">
               Currently a Lead Frontend Engineering with{" "}
@@ -50,7 +97,7 @@ class IndexPage extends React.Component {
               those who feel like they have ownership, autonomy and support to
               deliver.
             </p>
-            <div className="flex flex-col mt-8 md:flex-row">
+            <div class="flex flex-col mt-8 md:flex-row">
               <Link to="/blog/">
                 <Button className="p-3 mt-4 md:mr-4 md:mt-0">The Blog</Button>
               </Link>
@@ -59,9 +106,6 @@ class IndexPage extends React.Component {
               </Link>
               <Link to="/cv/">
                 <Button className="p-3 mt-4 md:mr-4 md:mt-0">My CV</Button>
-              </Link>
-              <Link to="/contact/">
-                <Button className="p-3 mt-4 md:mr-4 md:mt-0">Contact me</Button>
               </Link>
             </div>
           </div>
