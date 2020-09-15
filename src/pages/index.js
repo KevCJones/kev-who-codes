@@ -36,7 +36,7 @@ class IndexPage extends React.Component {
           <h1 class="prose font-serif block md:w-2/5 text-2xl text-white pb-4 md:mr-3">
             Hello, I’m <span className="text-blue-600">Kevin Jones</span>.{" "}
             <br />
-            Ambitious and communicative. Good mentor and tech lead.
+            Ambitious, driven and communicative. Father and a tech lead.
           </h1>
           <div class="md:w-3/5 md:ml-3">
             <p class="prose text-white">
