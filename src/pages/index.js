@@ -11,7 +11,11 @@ class IndexPage extends React.Component {
     const siteTitle = "CODEBYKEV.DEV"
 
     return (
-      <Layout location={this.props.location} title={siteTitle} bg={"keyboard"}>
+      <Layout
+        location={this.props.location}
+        title={siteTitle}
+        bg={"bg-keyboard-lg"}
+      >
         <SEO
           title="Home"
           keywords={[
