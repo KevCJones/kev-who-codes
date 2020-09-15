@@ -42,11 +42,13 @@ class IndexPage extends React.Component {
             <p class="prose text-white">
               Currently a Lead Frontend Engineering with{" "}
               {new Date().getFullYear() - 2004} years of web application
-              engineering. Addicted to solving interesting problems and helping
-              teams build well tested maintainable applications that they can be
-              proud of. I lead from the front and work with the engineers,
-              product and design to foster a common understanding of their
-              domain problems we’re solving together.
+              engineering experience. Addicted to solving interesting problems
+              and helping teams build well-tested maintainable applications that
+              they can be proud of. I lead from the front and work with the
+              engineers, stakeholders and designer to foster a ubiquitous
+              language for the domain we're talking about. The best teams are
+              those who feel like they have ownership, autonomy and support to
+              deliver.
             </p>
             <div className="flex flex-col mt-8 md:flex-row">
               <Link to="/blog/">
