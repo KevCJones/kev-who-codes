@@ -10,6 +10,7 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
+    "@tailwindcss/typography": "^0.2.0",
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.3.25",
     "gatsby-image": "^2.0.39",
@@ -23,7 +24,6 @@
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-plugin-sharp": "^2.0.35",
     "gatsby-plugin-styled-components": "^3.0.7",
-    "gatsby-plugin-typography": "^2.2.13",
     "gatsby-remark-copy-linked-files": "^2.0.11",
     "gatsby-remark-images": "^2.0.6",
     "gatsby-remark-responsive-iframe": "^2.1.1",
@@ -37,16 +37,11 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
     "react-switch": "^5.0.0",
-    "react-typography": "^0.16.19",
     "styled-components": "^4.2.0",
     "typeface-arvo": "^1.1.3",
     "typeface-cabin": "0.0.72",
     "typeface-merriweather": "0.0.72",
-    "typeface-montserrat": "0.0.54",
-    "typography": "^0.16.19",
-    "typography-theme-doelger": "^0.16.19",
-    "typography-theme-grand-view": "^0.16.19",
-    "typography-theme-wordpress-2016": "^0.16.19"
+    "typeface-montserrat": "0.0.54"
   },
   "devDependencies": {
     "prettier": "^1.17.0",
