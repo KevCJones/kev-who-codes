@@ -27,15 +27,15 @@ class IndexPage extends React.Component {
         />
         <img
           src="./kev.jpg"
-          class="w-64 h-64 m-4 mx-auto my-8 leading-8 border-2 border-blue-600 border-solid rounded-full shadow-lg md:my-12"
+          className="w-64 h-64 m-4 mx-auto my-8 leading-8 border-2 border-blue-600 border-solid rounded-full shadow-lg md:my-12"
           alt="KevCJones"
         />
-        <div class="flex flex-col p-4 md:flex-row">
-          <div class="pb-4 md:mr-3 md:w-2/5">
-            <h1 class="prose font-serif text-2xl text-white">
-              Hello, I’m <span class="text-blue-600">Kevin Jones</span>. <br />A
-              tech lead powered by coffee, wearer of many hats, addicted to
-              solving interested problems.
+        <div className="flex flex-col p-4 md:flex-row">
+          <div className="pb-4 md:mr-3 md:w-2/5">
+            <h1 className="font-serif text-2xl prose text-white">
+              Hello, I’m <span className="text-primary">Kevin Jones</span>.{" "}
+              <br />A tech lead powered by coffee, wearer of many hats, addicted
+              to solving interested problems.
             </h1>
             <SocialIcon
               style={{
@@ -87,9 +87,9 @@ class IndexPage extends React.Component {
               className="duration-150 ease-in-out transform hover:-translate-y-1 hover:scale-125"
             />
           </div>
-          <div class="md:w-3/5 md:ml-3">
-            <p class="prose text-white text-lg mt-8 md:mt-0">
-              <span class="text-blue-600">Lead Frontend Engineer</span> with{" "}
+          <div className="md:w-3/5 md:ml-3">
+            <p className="mt-8 text-lg prose text-white md:mt-0">
+              <span className="text-primary">Lead Frontend Engineer</span> with{" "}
               {new Date().getFullYear() - 2004} years of professional software
               development experience. Leads from the front, optimising people
               and a team's performance. Specialises in forging a team that
@@ -98,7 +98,7 @@ class IndexPage extends React.Component {
               ownership in the products they ship. Thinks in systems and flows,
               and is the eternal student. Every day is a school day.
             </p>
-            <div class="flex flex-col mt-8 md:flex-row">
+            <div className="flex flex-col mt-8 md:flex-row">
               <a
                 href="https://medium.com/@codebykev"
                 target="_blank"

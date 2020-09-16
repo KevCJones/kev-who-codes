@@ -1,3 +1,5 @@
+const { colors } = require("tailwindcss/defaultTheme")
+
 module.exports = {
   purge: {
     content: [
@@ -15,6 +17,9 @@ module.exports = {
       backgroundImage: theme => ({
         "keyboard-lg": "url('/bg_optim.webp')",
       }),
+      colors: {
+        primary: colors.blue[600],
+      },
     },
     fontFamily: {
       sans: "Cabin",

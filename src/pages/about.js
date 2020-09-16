@@ -8,42 +8,44 @@ class AboutPage extends React.Component {
     return (
       <Layout location={this.props.location} bg={"bg-keyboard-lg"}>
         <SEO title="About" />
-        <div class="container max-w-lg m-auto p-4">
-          <h1 class="text-3xl prose font-serif text-blue-600 mb-3 mt-6">
+        <div className="container max-w-lg p-4 m-auto">
+          <h1 className="mt-6 mb-3 font-serif text-3xl prose text-primary">
             About me
           </h1>
-          <p class="text-lg text-white prose">
+          <p className="text-lg prose text-white">
             This is probably going to change, but i felt maybe as a first
             version an FAQ might be the right format for now.
           </p>
-          <h3 class="text-2xl prose font-serif text-blue-600 mb-3 mt-6">
+          <h3 className="mt-6 mb-3 font-serif text-2xl prose text-primary">
             What is your offering?
           </h3>
-          <p class="text-lg text-white prose">
+          <p className="text-lg prose text-white">
             I have maintained, developed and shipped multiple projects from
             beginning to end, carrying the development of its' back-end and
             front-end codebases.
           </p>
-          <p class="text-lg text-white prose mt-2">
+          <p className="mt-2 text-lg prose text-white">
             My current toolset includes Angular, NodeJS and all the other
             various frameworks, libraries and technologies related to them. I'm
             also learning .NET Core right now
           </p>
-          <p class="text-lg text-white prose mt-2">
+          <p className="mt-2 text-lg prose text-white">
             I can help you with all the sides of your project:
-            <ul class="mt-2">
+          </p>
+          <div className="mt-2 ml-4 text-lg prose text-white">
+            <ul>
               <li>verifying good UI/UX design, </li>
               <li>setting up the CI/CD pipelines,</li>
               <li>mentoring the team,</li>
               <li>researching possible techs</li>
               <li>and monitoring the project.</li>
             </ul>
-          </p>
-          <h3 class="text-2xl prose font-serif text-blue-600 mt-6 mb-3">
+          </div>
+          <h3 className="mt-6 mb-3 font-serif text-2xl prose text-primary">
             List some of your Northstar principles?
           </h3>
-          <p class="text-lg text-white prose mt-4 font-hairline">
-            <span class="font-bold font-serif text-blue-600">
+          <p className="mt-4 font-sans text-lg prose text-white">
+            <span className="font-serif font-bold text-primary">
               People first.
             </span>{" "}
             I'm a lead from the front kind of manager. I will earn your respect
@@ -53,8 +55,8 @@ class AboutPage extends React.Component {
             grow. A team that feels like it has ownership, a clear path and
             autonomy will always perform.
           </p>
-          <p class="text-lg text-white prose mt-4 font-hairline">
-            <span class="font-bold font-serif text-blue-600">
+          <p className="mt-4 font-sans text-lg prose text-white">
+            <span className="font-serif font-bold text-primary">
               Just enough design upfront
             </span>{" "}
             because It's always about balance. When I’m working in a team,
@@ -67,8 +69,8 @@ class AboutPage extends React.Component {
             building software in. There is nothing worse than when every layer
             of the business has its own names and terms for the same things.
           </p>
-          <p class="text-lg text-white prose mt-4 font-hairline">
-            <span class="font-bold font-serif text-blue-600">
+          <p className="mt-4 font-sans text-lg prose text-white">
+            <span className="font-serif font-bold text-primary">
               Well tested code
             </span>{" "}
             This doesn't mean I always demand TDD from my team. I will expect
@@ -86,8 +88,8 @@ class AboutPage extends React.Component {
             about, those who don't should give it a go, pain is a great a
             teacher.
           </p>
-          <p class="text-lg text-white prose mt-4 font-hairline">
-            <span class="font-bold font-serif text-blue-600">
+          <p className="mt-4 font-sans text-lg prose text-white">
+            <span className="font-serif font-bold text-primary">
               Continuous deployment, fast feedback
             </span>{" "}
             I've had to implement a number of pipelines over the last 15 years.
@@ -96,8 +98,8 @@ class AboutPage extends React.Component {
             safe to do so. I implement as much automation as i can to let the
             bots do the bots work, so tools like Sonarcloud are a must.
           </p>
-          <p class="text-lg text-white prose mt-4 font-hairline">
-            <span class="font-bold font-serif text-blue-600">
+          <p className="mt-4 font-sans text-lg prose text-white">
+            <span className="font-serif font-bold text-primary">
               Useful ticket, appropriate knowledge usage
             </span>{" "}
             Everyone has opinions on how you should use systems like JIRA and
@@ -113,10 +115,10 @@ class AboutPage extends React.Component {
             moving it towards the goal. The tickets will then only contain the
             iteration.
           </p>
-          <h3 class="text-2xl prose font-serif text-blue-600 mt-6 mb-3">
+          <h3 className="mt-6 mb-3 font-serif text-2xl prose text-primary">
             Do you design?
           </h3>
-          <p class="text-lg text-white prose">
+          <p className="text-lg prose text-white">
             I'm more of a systems thinker, i design software. While i did this
             site i wouldn't consider my design skills as good as some of the
             wizards I’ve worked with. I believe in putting the right people in
