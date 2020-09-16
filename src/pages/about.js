@@ -17,27 +17,30 @@ class AboutPage extends React.Component {
             version an FAQ might be the right format for now.
           </p>
           <h3 class="text-2xl prose font-serif text-blue-600 mb-3 mt-6">
-            Do you even code then?
+            What is your offering?
           </h3>
           <p class="text-white prose">
-            Yes, a lot currently, this varies depending on the team size. I've
-            always been a hands on, lead from the front kind of tech lead.
-            Perhaps one day i'll hang up the coding hat and go full swing into
-            leadership but while i'm still enjoying it and contributing i'll
-            probably always have something i'm working on.
+            I have maintained, developed and shipped multiple projects from
+            beginning to end, carrying the development of its' back-end and
+            front-end codebases.
+          </p>
+          <p class="text-white prose mt-2">
+            My current toolset includes Angular, NodeJS and all the other
+            various frameworks, libraries and technologies related to them. I'm
+            also learning .NET Core right now
+          </p>
+          <p class="text-white prose mt-2">
+            I can help you with all the sides of your project:
+            <ul class="mt-2">
+              <li>verifying good UI/UX design, </li>
+              <li>setting up the CI/CD pipelines,</li>
+              <li>mentoring the team,</li>
+              <li>researching possible techs</li>
+              <li>and monitoring the project.</li>
+            </ul>
           </p>
           <h3 class="text-2xl prose font-serif text-blue-600 mt-6 mb-3">
-            What's your stack then?
-          </h3>
-          <p class="text-white prose">
-            I don't believe in there being a one size fits all, you must always
-            weigh the tools strengths against the problem that you're solving
-            and the timeline you need to solve it within. I'm doing a lot of
-            Angular right now and NodeJS but i'm starting a new journey using
-            .NET Core and so far, it's good.
-          </p>
-          <h3 class="text-2xl prose font-serif text-blue-600 mt-6 mb-3">
-            What are your core principles?
+            List some of your northstar prinicples?
           </h3>
           <p class="text-white prose mt-4 font-hairline">
             <span class="font-bold font-serif text-blue-600">
@@ -109,6 +112,17 @@ class AboutPage extends React.Component {
             you will know where you are, where the vision wants you to get and
             then how much you [the team] are going to commit to to move it
             towards the goal. The tickets will then only contain the iteration.
+          </p>
+          <h3 class="text-2xl prose font-serif text-blue-600 mt-6 mb-3">
+            Do you design?
+          </h3>
+          <p class="text-white prose">
+            I'm more of a systems thinker, i design software. While i did this
+            site i wouldn't consider my design skills as good as some of the
+            wizards i've worked with. I believe in putting the right people in
+            the right seats to get the best job done. I am not the right person
+            to design your website, but i am the right person to design your
+            applications structure so we can easily update it in a years time.
           </p>
         </div>
       </Layout>

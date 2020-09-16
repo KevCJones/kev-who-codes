@@ -89,14 +89,14 @@ class IndexPage extends React.Component {
           </div>
           <div class="md:w-3/5 md:ml-3">
             <p class="prose text-white text-lg mt-8 md:mt-0">
-              Lead Frontend Engineering with {new Date().getFullYear() - 2004}{" "}
-              years of web application engineering experience. I believe in
-              leading from the front and optimising people. I specialise in
-              forging teams who value tested extendable code, fast release
-              cycles and short feedback loops. The best teams feel pride and
-              ownership in the products they ship. I think in systems and flows,
-              and consider myself the eternal student. Every day is a school
-              day.
+              <span class="text-blue-600">Lead Frontend Engineer</span> with{" "}
+              {new Date().getFullYear() - 2004} years of web application
+              engineering experience. I believe in leading from the front and
+              optimising people. I specialise in forging teams who value tested
+              extendable code, fast release cycles and short feedback loops. The
+              best teams feel pride and ownership in the products they ship. I
+              think in systems and flows, and consider myself the eternal
+              student. Every day is a school day.
             </p>
             <div class="flex flex-col mt-8 md:flex-row">
               <a
