@@ -8,7 +8,7 @@ class AboutPage extends React.Component {
     return (
       <Layout location={this.props.location} bg={"bg-keyboard-lg"}>
         <SEO title="About" />
-        <div class="container max-w-lg m-auto">
+        <div class="container max-w-lg m-auto p-6">
           <h1 class="text-3xl prose font-serif text-blue-600 mb-3 mt-6">
             About me
           </h1>
@@ -71,8 +71,8 @@ class AboutPage extends React.Component {
             <span class="font-bold font-serif text-blue-600">
               Well tested code
             </span>{" "}
-            This does mean I always demand TDD from my team. I will expect that
-            we test the right things, in the right ways to provide decent
+            This doesn't mean I always demand TDD from my team. I will expect
+            that we test the right things, in the right ways to provide decent
             coverage for the codebase. Testing for me is both documentation of
             the intent of the developer who wrote the code and it's a safety net
             to breaking changes. My advice to any team is to try and not test
