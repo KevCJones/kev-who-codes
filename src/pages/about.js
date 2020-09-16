@@ -27,7 +27,7 @@ class AboutPage extends React.Component {
           <p className="mt-2 text-lg prose text-white">
             My current toolset includes Angular, NodeJS and all the other
             various frameworks, libraries and technologies related to them. I'm
-            also learning .NET Core right now
+            also learning .NET Core.
           </p>
           <p className="mt-2 text-lg prose text-white">
             I can help you with all the sides of your project:
