@@ -27,7 +27,7 @@ class IndexPage extends React.Component {
         />
         <img
           src="./kev.jpg"
-          className="w-64 h-64 m-4 mx-auto my-8 leading-8 border-2 border-blue-600 border-solid rounded-full shadow-lg md:my-12"
+          className="z-30 w-64 h-64 m-4 mx-auto my-8 leading-8 border-2 border-blue-600 border-solid rounded-full shadow-lg md:my-12"
           alt="KevCJones"
         />
         <div className="flex flex-col p-4 md:flex-row">

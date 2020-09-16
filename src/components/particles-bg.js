@@ -12,7 +12,7 @@ const ParticlesBG = props => (
           },
         },
         size: {
-          value: 2,
+          value: 1.5,
           random: true,
           anim: {
             speed: 2,
