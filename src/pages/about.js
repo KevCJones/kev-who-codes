@@ -6,7 +6,7 @@ import { graphql } from "gatsby"
 class AboutPage extends React.Component {
   render() {
     return (
-      <Layout location={this.props.location} bg={"bg-keyboard-lg"}>
+      <Layout location={this.props.location}>
         <SEO title="About" />
         <div className="container max-w-lg p-4 m-auto">
           <h1 className="mt-6 mb-3 font-serif text-3xl prose text-primary">

@@ -7,7 +7,7 @@ class Layout extends React.Component {
     const { children, bg } = this.props
     return (
       <div
-        className={`w-full leading-6 bg-cover bg-gradient-to-b from-black to-nearblack`}
+        className={`w-full leading-6 bg-cover bg-gradient-to-b from-black to-nearblack ${bg}`}
       >
         <ParticlesBG />
         <div className="flex items-center flex-shrink-0 p-6">
