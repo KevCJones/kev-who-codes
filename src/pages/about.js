@@ -8,7 +8,7 @@ class AboutPage extends React.Component {
     return (
       <Layout location={this.props.location} bg={"bg-keyboard-lg"}>
         <SEO title="About" />
-        <div class="container max-w-lg m-auto p-6">
+        <div class="container max-w-lg m-auto p-4">
           <h1 class="text-3xl prose font-serif text-blue-600 mb-3 mt-6">
             About me
           </h1>

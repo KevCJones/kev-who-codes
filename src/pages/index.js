@@ -30,7 +30,7 @@ class IndexPage extends React.Component {
           class="w-64 h-64 m-4 mx-auto my-8 leading-8 border-2 border-blue-600 border-solid rounded-full shadow-lg md:my-12"
           alt="KevCJones"
         />
-        <div class="flex flex-col p-6 md:flex-row">
+        <div class="flex flex-col p-4 md:flex-row">
           <div class="pb-4 md:mr-3 md:w-2/5">
             <h1 class="prose font-serif text-2xl text-white">
               Hello, I’m <span class="text-blue-600">Kevin Jones</span>. <br />A
