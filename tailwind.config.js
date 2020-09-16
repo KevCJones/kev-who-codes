@@ -19,6 +19,7 @@ module.exports = {
       }),
       colors: {
         primary: colors.blue[600],
+        nearblack: "#111418",
       },
     },
     fontFamily: {
