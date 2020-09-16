@@ -13,7 +13,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        "keyboard-lg": "url('/bg_optim.jpg')",
+        "keyboard-lg": "url('/bg_optim.webp')",
       }),
     },
     fontFamily: {
