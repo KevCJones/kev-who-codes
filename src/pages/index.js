@@ -25,12 +25,14 @@ class IndexPage extends React.Component {
             "codebykev",
           ]}
         />
-        <img
-          src="./kev.jpg"
-          className="z-30 w-64 h-64 m-4 mx-auto my-8 leading-8 border-2 border-blue-600 border-solid rounded-full shadow-lg md:my-12"
-          alt="KevCJones"
-        />
-        <div className="flex flex-col p-4 md:flex-row">
+        <div className="w-full my-8 md:my-12">
+          <img
+            src="./kev.jpg"
+            className="w-64 h-64 m-4 mx-auto border-2 border-solid rounded-full shadow-lg border-primary"
+            alt="KevCJones"
+          />
+        </div>
+        <div className="flex flex-col max-w-5xl p-4 m-auto md:flex-row">
           <div className="pb-4 md:mr-3 md:w-2/5">
             <h1 className="font-serif text-2xl prose text-white">
               Hello, I’m <span className="text-primary">Kevin Jones</span>.{" "}

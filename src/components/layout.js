@@ -13,7 +13,7 @@ class Layout extends React.Component {
             <img src="/logo/default-monochrome.svg" alt="codebykev.dev logo" />
           </Link>
         </div>
-        <main className="container flex flex-col flex-wrap items-center content-start min-h-screen px-3 mx-auto md:flex-row">
+        <main className="flex flex-col flex-wrap items-center content-start min-h-screen px-3 mx-auto md:flex-row">
           {children}
         </main>
       </div>
