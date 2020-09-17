@@ -1,6 +1,5 @@
-import React from "react"
 import { Link } from "gatsby"
-import ParticlesBG from "./particles-bg"
+import React from "react"
 
 class Layout extends React.Component {
   render() {
@@ -9,7 +8,6 @@ class Layout extends React.Component {
       <div
         className={`w-full leading-6 bg-cover bg-gradient-to-b from-black to-nearblack ${bg}`}
       >
-        <ParticlesBG />
         <div className="flex items-center flex-shrink-0 p-6">
           <Link to="/" className="w-64 m-auto">
             <img src="/logo/default-monochrome.svg" alt="codebykev.dev logo" />
