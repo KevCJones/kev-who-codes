@@ -100,7 +100,7 @@ class AboutPage extends React.Component {
           </p>
           <p className="mt-4 font-sans text-lg prose text-white">
             <span className="font-serif font-bold text-primary">
-              Useful ticket, appropriate knowledge usage
+              Useful ticket, appropriate documentation
             </span>{" "}
             Everyone has opinions on how you should use systems like JIRA and
             Confluence. I've done it well and I’ve done it badly. I will
