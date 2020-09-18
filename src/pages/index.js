@@ -34,7 +34,7 @@ class IndexPage extends React.Component {
         </div>
         <div className="flex flex-col max-w-5xl p-4 m-auto md:flex-row">
           <div className="pb-4 md:mr-3 md:w-2/5">
-            <h1 className="font-serif text-2xl prose text-white">
+            <h1 className="font-serif text-2xl prose text-nearwhite">
               Hello, I’m <span className="text-primary">Kevin Jones</span>.{" "}
               <br />A tech lead powered by coffee, wearer of many hats, addicted
               to solving interested problems.
@@ -90,7 +90,7 @@ class IndexPage extends React.Component {
             />
           </div>
           <div className="md:w-3/5 md:ml-3">
-            <p className="mt-8 text-lg prose text-white md:mt-0">
+            <p className="mt-8 text-lg prose text-nearwhite md:mt-0">
               <span className="text-primary">Lead Frontend Engineer</span> with{" "}
               {new Date().getFullYear() - 2004} years of professional software
               development experience. Leads from the front, optimising people

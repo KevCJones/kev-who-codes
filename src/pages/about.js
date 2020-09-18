@@ -12,27 +12,27 @@ class AboutPage extends React.Component {
           <h1 className="mt-6 mb-3 font-serif text-3xl prose text-primary">
             About me
           </h1>
-          <p className="text-lg prose text-white">
+          <p className="text-lg prose text-nearwhite">
             This is probably going to change, but i felt maybe as a first
             version an FAQ might be the right format for now.
           </p>
           <h3 className="mt-6 mb-3 font-serif text-2xl prose text-primary">
             What is your offering?
           </h3>
-          <p className="text-lg prose text-white">
+          <p className="text-lg prose text-nearwhite">
             I have maintained, developed and shipped multiple projects from
             beginning to end, carrying the development of its' back-end and
             front-end codebases.
           </p>
-          <p className="mt-2 text-lg prose text-white">
+          <p className="mt-2 text-lg prose text-nearwhite">
             My current toolset includes Angular, NodeJS and all the other
             various frameworks, libraries and technologies related to them. I'm
             also learning .NET Core.
           </p>
-          <p className="mt-2 text-lg prose text-white">
+          <p className="mt-2 text-lg prose text-nearwhite">
             I can help you with all the sides of your project:
           </p>
-          <div className="mt-2 ml-4 text-lg prose text-white">
+          <div className="mt-2 ml-4 text-lg prose text-nearwhite">
             <ul>
               <li>verifying good UI/UX design, </li>
               <li>setting up the CI/CD pipelines,</li>
@@ -44,7 +44,7 @@ class AboutPage extends React.Component {
           <h3 className="mt-6 mb-3 font-serif text-2xl prose text-primary">
             List some of your Northstar principles?
           </h3>
-          <p className="mt-4 font-sans text-lg prose text-white">
+          <p className="mt-4 font-sans text-lg prose text-nearwhite">
             <span className="font-serif font-bold text-primary">
               People first.
             </span>{" "}
@@ -55,7 +55,7 @@ class AboutPage extends React.Component {
             grow. A team that feels like it has ownership, a clear path and
             autonomy will always perform.
           </p>
-          <p className="mt-4 font-sans text-lg prose text-white">
+          <p className="mt-4 font-sans text-lg prose text-nearwhite">
             <span className="font-serif font-bold text-primary">
               Just enough design upfront
             </span>{" "}
@@ -69,7 +69,7 @@ class AboutPage extends React.Component {
             building software in. There is nothing worse than when every layer
             of the business has its own names and terms for the same things.
           </p>
-          <p className="mt-4 font-sans text-lg prose text-white">
+          <p className="mt-4 font-sans text-lg prose text-nearwhite">
             <span className="font-serif font-bold text-primary">
               Well tested code
             </span>{" "}
@@ -88,7 +88,7 @@ class AboutPage extends React.Component {
             about, those who don't should give it a go, pain is a great a
             teacher.
           </p>
-          <p className="mt-4 font-sans text-lg prose text-white">
+          <p className="mt-4 font-sans text-lg prose text-nearwhite">
             <span className="font-serif font-bold text-primary">
               Continuous deployment, fast feedback
             </span>{" "}
@@ -98,7 +98,7 @@ class AboutPage extends React.Component {
             safe to do so. I implement as much automation as i can to let the
             bots do the bots work, so tools like Sonarcloud are a must.
           </p>
-          <p className="mt-4 font-sans text-lg prose text-white">
+          <p className="mt-4 font-sans text-lg prose text-nearwhite">
             <span className="font-serif font-bold text-primary">
               Useful ticket, appropriate documentation
             </span>{" "}
@@ -118,7 +118,7 @@ class AboutPage extends React.Component {
           <h3 className="mt-6 mb-3 font-serif text-2xl prose text-primary">
             Do you design?
           </h3>
-          <p className="text-lg prose text-white">
+          <p className="text-lg prose text-nearwhite">
             I'm more of a systems thinker, i design software. While i did this
             site i wouldn't consider my design skills as good as some of the
             wizards I’ve worked with. I believe in putting the right people in

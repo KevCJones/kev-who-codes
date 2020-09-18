@@ -21,6 +21,13 @@ module.exports = {
         primary: colors.blue[600],
         nearblack: "#111418",
       },
+      typography: theme => ({
+        default: {
+          css: {
+            color: "#a9abb3",
+          },
+        },
+      }),
     },
     fontFamily: {
       sans: "Cabin",
