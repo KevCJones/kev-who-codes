@@ -4,7 +4,8 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
-import { SocialIcon } from "react-social-icons"
+import SocialIcons from "../components/social-icons"
+import ProfileImage from "../components/profile-image"
 
 class IndexPage extends React.Component {
   render() {
@@ -26,11 +27,7 @@ class IndexPage extends React.Component {
           ]}
         />
         <div className="w-full my-8 md:my-12">
-          <img
-            src="./kev.jpg"
-            className="w-64 h-64 m-4 mx-auto border-2 border-solid rounded-full shadow-lg border-primary"
-            alt="KevCJones"
-          />
+          <ProfileImage />
         </div>
         <div className="flex flex-col max-w-5xl p-4 m-auto md:flex-row">
           <div className="pb-4 md:mr-3 md:w-2/5">
@@ -39,55 +36,7 @@ class IndexPage extends React.Component {
               <br />A tech lead powered by coffee, wearer of many hats, addicted
               to solving interested problems.
             </h1>
-            <SocialIcon
-              style={{
-                height: 25,
-                width: 25,
-                marginRight: "0.5em",
-                marginTop: "1em",
-              }}
-              bgColor="#3182ce"
-              fgColor="#fff"
-              url="http://twitter.com/kevcjones"
-              className="duration-150 ease-in-out transform hover:-translate-y-1 hover:scale-125"
-            />
-            <SocialIcon
-              style={{
-                height: 25,
-                width: 25,
-                marginRight: "0.5em",
-                marginTop: "1em",
-              }}
-              bgColor="#3182ce"
-              fgColor="#fff"
-              url="https://www.linkedin.com/in/kevin-c-jones-7a22372/"
-              className="duration-150 ease-in-out transform hover:-translate-y-1 hover:scale-125"
-            />
-            <SocialIcon
-              style={{
-                height: 25,
-                width: 25,
-                marginRight: "0.5em",
-                marginTop: "1em",
-              }}
-              bgColor="#3182ce"
-              fgColor="#fff"
-              url="https://github.com/kevcjones"
-              className="duration-150 ease-in-out transform hover:-translate-y-1 hover:scale-125"
-            />
-            <SocialIcon
-              style={{
-                height: 25,
-                width: 25,
-                marginRight: "0.5em",
-                marginTop: "1em",
-              }}
-              network="whatsapp"
-              bgColor="#3182ce"
-              fgColor="#fff"
-              url="https://t.me/codebykev"
-              className="duration-150 ease-in-out transform hover:-translate-y-1 hover:scale-125"
-            />
+            <SocialIcons />
           </div>
           <div className="md:w-3/5 md:ml-3">
             <p className="mt-8 text-lg prose text-nearwhite md:mt-0">
