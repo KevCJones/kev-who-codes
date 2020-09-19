@@ -26,7 +26,7 @@ class IndexPage extends React.Component {
             "codebykev",
           ]}
         />
-        <div className="w-full my-8 md:my-12">
+        <div className="w-full my-6 md:my-8">
           <ProfileImage />
         </div>
         <div className="flex flex-col max-w-5xl p-4 m-auto md:flex-row">
