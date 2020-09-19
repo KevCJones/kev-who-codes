@@ -22,8 +22,9 @@ const SocialIcons = () => {
   ]
   return (
     <React.Fragment>
-      {icons.map(icon => (
+      {icons.map((icon, index) => (
         <SocialIcon
+          key={index}
           style={{
             height: 25,
             width: 25,
@@ -34,7 +35,7 @@ const SocialIcons = () => {
           fgColor="#fff"
           network={icon.network}
           url={icon.url}
-          className="duration-150 ease-in-out transform hover:-translate-y-1 hover:scale-125"
+          className="transition-transform duration-150 ease-in-out transform hover:scale-150"
         />
       ))}
     </React.Fragment>

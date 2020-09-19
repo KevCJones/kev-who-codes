@@ -2,8 +2,8 @@ import React from "react"
 import { useSpring, animated } from "react-spring"
 
 const calc = (x, y) => [
-  -(y - window.innerHeight / 3) / 3,
-  (x - window.innerWidth / 2) / 3,
+  -(y - window.innerHeight / 3) / 5,
+  (x - window.innerWidth / 2) / 5,
   1.3,
 ]
 const trans = (x, y, s) =>
