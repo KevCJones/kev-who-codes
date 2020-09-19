@@ -25,6 +25,13 @@ module.exports = {
         default: {
           css: {
             color: "#a9abb3",
+            blockquote: "#a9abb3",
+            a: {
+              color: "#a9abb3",
+              "&:hover": {
+                color: "#fff",
+              },
+            },
           },
         },
       }),

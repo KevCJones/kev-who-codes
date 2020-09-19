@@ -31,23 +31,34 @@ class IndexPage extends React.Component {
         </div>
         <div className="flex flex-col max-w-5xl p-4 m-auto md:flex-row">
           <div className="pb-4 md:mr-3 md:w-2/5">
-            <h1 className="font-serif text-2xl prose text-nearwhite">
-              Hello, I’m <span className="text-primary">Kevin Jones</span>.{" "}
-              <br />A tech lead powered by coffee, wearer of many hats, addicted
-              to solving interested problems.
+            <h1 className="text-2xl prose text-nearwhite">
+              Hello, I’m{" "}
+              <span className="font-serif text-primary ">Kevin Jones</span>.{" "}
+              <br />A tech lead powered by coffee, author of{" "}
+              <a href="https://www.npmjs.com/package/ngx-simple-modal">
+                ngx-simple-modal
+              </a>
+              , addicted to solving interesting problems.
             </h1>
             <SocialIcons />
           </div>
           <div className="md:w-3/5 md:ml-3">
-            <p className="mt-8 text-lg prose text-nearwhite md:mt-0">
-              <span className="text-primary">Lead Frontend Engineer</span> with{" "}
-              {new Date().getFullYear() - 2004} years of professional software
-              development experience. Leads from the front, optimising people
-              and a team's performance. Specialises in forging a team that
-              values tested extendable code, fast release cycles and short
-              feedback loops. The best teams take pride and have a sense of
-              ownership in the products they ship. Thinks in systems and flows,
-              and is the eternal student. Every day is a school day.
+            <p className="mt-8 text-xl prose text-nearwhite md:mt-0">
+              <span className="font-serif text-primary">Tech Lead</span> with{" "}
+              {new Date().getFullYear() - 2004} years professionally developing
+              software with{" "}
+              <span className="font-serif text-primary">
+                10+ in leadership roles
+              </span>
+              . Leads from the front and specialises in forging a team that
+              communicates effectively, values{" "}
+              <span className="font-serif text-primary">clean code</span> that's
+              well tested,{" "}
+              <span className="font-serif text-primary">
+                fast release cycles
+              </span>{" "}
+              and short feedback loops. No two teams are ever alike, finding
+              what makes them tick is the most interesting challenge.
             </p>
             <div className="flex flex-col mt-8 md:flex-row">
               <a
