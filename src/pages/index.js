@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import Button from "../components/button"
 import SocialIcons from "../components/social-icons"
 import ProfileImage from "../components/profile-image"
+import MainMenu from "../components/menu"
 
 class IndexPage extends React.Component {
   render() {
@@ -65,6 +66,7 @@ class IndexPage extends React.Component {
                   and short feedback loops. No two teams are ever alike, finding
                   what makes them tick is the most interesting challenge.
                 </p>
+                <MainMenu />
               </div>
             </div>
           </div>
