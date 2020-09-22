@@ -19,7 +19,9 @@ module.exports = {
       }),
       colors: {
         primary: colors.blue[600],
+        secondary: "#db3154",
         nearblack: "#111418",
+        slategrey: "#15171e",
       },
       typography: theme => ({
         default: {

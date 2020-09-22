@@ -20,7 +20,7 @@ const ProfileImage = () => {
       onTouchMove={({ touches }) =>
         set({ xys: calc(touches[0].clientX, touches[0].clientY) })
       }
-      className="w-64 h-64 m-4 mx-auto border-2 border-solid rounded-full shadow-md border-primary hover:shadow-2xl"
+      className="w-64 h-64 m-4 mx-auto border-2 border-solid rounded-full shadow-md border-secondary hover:shadow-lg"
       onTouchEnd={() => set({ xys: [0, 0, 1] })}
       onMouseMove={({ clientX: x, clientY: y }) => set({ xys: calc(x, y) })}
       onMouseLeave={() => set({ xys: [0, 0, 1] })}

@@ -29,7 +29,6 @@ const SocialIcons = () => {
             height: 25,
             width: 25,
             marginRight: "0.5em",
-            marginTop: "1em",
           }}
           bgColor="#3182ce"
           fgColor="#fff"
