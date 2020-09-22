@@ -41,7 +41,7 @@ class IndexPage extends React.Component {
             <Button className="p-3 mt-8">Learn more</Button>
           </Link>
         </div>
-        <div id="about" class="w-full bg-indigo-100 mt-32">
+        <div id="about" className="w-full mt-32 bg-indigo-100">
           <div className="flex flex-col max-w-6xl min-h-screen p-8 m-auto">
             <h2 className="m-8 font-serif text-4xl text-center">About</h2>
             <div className="flex flex-col items-center md:flex-row md:mt-8">
