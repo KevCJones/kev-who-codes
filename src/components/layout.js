@@ -15,9 +15,9 @@ class Layout extends React.Component {
         <main className="flex flex-col flex-wrap items-center content-start min-h-screen mx-auto md:flex-row">
           {children}
         </main>
-        <footer class="w-full flex flex-row justify-center items-center p-4 bg-nearblack">
+        <footer className="flex flex-row items-center justify-center w-full p-4 bg-nearblack">
           <SocialIcons />
-          <span class="text-white ml-4">Copyrights codebykev.dev</span>
+          <span className="ml-4 text-white">Copyrights codebykev.dev</span>
         </footer>
       </div>
     )

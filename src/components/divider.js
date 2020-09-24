@@ -16,7 +16,7 @@ const Divider = props => {
     position: "relative",
     display: "block",
     width: "calc(100% + 1.3px)",
-    height: "52px",
+    height: "28px",
   }
 
   const shapefillStyles = {

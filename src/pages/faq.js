@@ -11,10 +11,8 @@ class AboutPage extends React.Component {
       <Layout location={this.props.location}>
         <SEO title="FAQ" />
         <div id="home" className="flex flex-col w-full">
-          <div
-            style={{ minHeight: "calc(100vh - 4.5rem)", marginTop: "-3rem" }}
-          >
-            <div class="py-20 max-w-3xl p-6 m-auto">
+          <div style={{ minHeight: "calc(100vh - 6rem)", marginTop: "-3rem" }}>
+            <div className="max-w-3xl p-6 py-20 m-auto">
               <img
                 className="m-auto"
                 width="100px"
@@ -41,7 +39,7 @@ class AboutPage extends React.Component {
               <p className="mt-2 text-lg prose text-nearwhite">
                 I can help you with all the sides of your project:
               </p>
-              <div className="mt-2 ml-4 text-lg prose text-nearwhite">
+              <div className="mt-2 text-lg prose text-nearwhite">
                 <ul>
                   <li>verifying good UI/UX design, </li>
                   <li>setting up the CI/CD pipelines,</li>
@@ -54,7 +52,7 @@ class AboutPage extends React.Component {
             <Divider styles={{ bottom: "0" }} />
           </div>
           <div className="min-h-screen bg-indigo-100">
-            <div class="m-auto py-20 max-w-3xl p-6">
+            <div className="max-w-3xl p-6 py-20 m-auto">
               <img
                 className="m-auto"
                 width="100px"
@@ -92,7 +90,7 @@ class AboutPage extends React.Component {
               </p>
               <p className="mt-4 font-sans text-lg prose text-nearblack">
                 <span className="font-serif font-bold text-secondary">
-                  Well tested code
+                  Well tested code.
                 </span>{" "}
                 This doesn't mean I always demand TDD from my team. I will
                 expect that we test the right things, in the right ways to
@@ -127,12 +125,14 @@ class AboutPage extends React.Component {
               </p>
               <p className="mt-4 font-sans text-lg prose text-nearblack">
                 <span className="font-serif font-bold text-secondary">
-                  Useful ticket, appropriate documentation
+                  Useful ticket, appropriate documentation.
                 </span>{" "}
                 Everyone has opinions on how you should use ticket and knowledge
                 systems like JIRA and Confluence. I've done it well and I’ve
                 done it badly. I will probably write a blog posts on both. Some
                 key points i'll share for free:
+              </p>
+              <div className="mt-2 text-lg prose text-nearblack">
                 <ul>
                   <li>
                     Clearly separate your backlog from your vision pieces,
@@ -140,27 +140,28 @@ class AboutPage extends React.Component {
                     eventually but the work in progress should be clear, well
                     defined and have a definition of done.
                   </li>
+                  <li>
+                    Tickets are a commitment by the team, if its not going to be
+                    done, don't put it in the ticket.
+                  </li>
+                  <li>
+                    Don't fill your backlogs with vision tickets, keep that
+                    stuff in a knowledge base. When you're working with the
+                    product team to identify the next most valuable thing to do
+                    you will know where you are, where the vision wants you to
+                    get and then how much you [the team] are going to commit to
+                    moving it towards the goal. The tickets will then only
+                    contain the iteration.
+                  </li>
                 </ul>
-                <li>
-                  Tickets are a commitment by the team, if its not going to be
-                  done, don't put it in the ticket.
-                </li>
-                <li>
-                  Don't fill your backlogs with vision tickets, keep that stuff
-                  in a knowledge base. When you're working with the product team
-                  to identify the next most valuable thing to do you will know
-                  where you are, where the vision wants you to get and then how
-                  much you [the team] are going to commit to moving it towards
-                  the goal. The tickets will then only contain the iteration.
-                </li>
-              </p>
+              </div>
             </div>
             <Divider
               styles={{ color: "#15171e", transform: "rotate(180deg)" }}
             />
           </div>
           <div className="min-h-screen">
-            <div class="m-auto py-20 max-w-3xl p-6">
+            <div className="max-w-3xl p-6 py-20 m-auto">
               <img
                 className="m-auto"
                 width="100px"
@@ -173,16 +174,17 @@ class AboutPage extends React.Component {
               <p className="text-lg prose text-nearwhite">
                 I'm more of a systems thinker, i design software and prefer
                 process and good UX conversations. While i did this site i
-                wouldn't consider my design skills as good as some of the
-                wizards I’ve worked with. I believe in putting the right people
-                in the right seats to get the best job done. I am not the right
-                person to design your website, but i am the right person to
-                break down complicated processes into simpler quantifiable
-                deliveries and then help a team execute.
+                wouldn't consider my artistic design skills as good as some of
+                the wizards I’ve worked with though i'm perfectly capable of
+                converting anyone's designs into CSS/SCSS. I believe in putting
+                the right people in the right seats to get the best job done. I
+                am not the right person to design your website, but i am the
+                right person to break down complicated processes into simpler
+                quantifiable deliveries and then help a team execute.
               </p>
             </div>
             <Link to="/">
-              <Button className="w-32 p-3 m-auto mt-8">Home</Button>
+              <Button className="w-32 p-3 m-auto my-8">Home</Button>
             </Link>
           </div>
         </div>

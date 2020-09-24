@@ -31,7 +31,7 @@ class IndexPage extends React.Component {
           id="home"
           className="flex flex-col items-center justify-center w-full splash-height"
         >
-          <div class="max-w-5xl p-6 m-auto">
+          <div className="max-w-5xl p-6 m-auto">
             <h1 className="mt-2 text-2xl prose text-center md:text-4xl text-nearwhite">
               Hello, I’m{" "}
               <span className="font-serif text-primary ">Kevin Jones</span>.{" "}
@@ -83,7 +83,7 @@ class IndexPage extends React.Component {
             <h2 className="m-8 font-serif text-4xl text-center text-white">
               Connect with me
             </h2>
-            <div class="flex flex-row items-center justify-center scale-150">
+            <div className="flex flex-row items-center justify-center scale-150">
               <SocialIcons />
             </div>
           </div>
