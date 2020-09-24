@@ -4,7 +4,7 @@ import SocialIcons from "./social-icons"
 
 class Layout extends React.Component {
   render() {
-    const { children, bg } = this.props
+    const { children } = this.props
     return (
       <div className={`w-full leading-6 bg-slategrey`}>
         <header className="flex items-center flex-shrink-0 p-6">
