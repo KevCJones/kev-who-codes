@@ -49,9 +49,9 @@ class AboutPage extends React.Component {
                 </ul>
               </div>
             </div>
-            <Divider styles={{ bottom: "0" }} />
           </div>
-          <div className="min-h-screen bg-indigo-100">
+          <Divider styles={{ bottom: "0", color: "#fff" }} />
+          <div className="min-h-screen bg-white">
             <div className="max-w-3xl p-6 py-20 m-auto">
               <img
                 className="m-auto"

@@ -45,9 +45,9 @@ class IndexPage extends React.Component {
               <Button className="w-32 p-3 m-auto mt-8">Learn more</Button>
             </Link>
           </div>
-          <Divider styles={{ bottom: "-8rem" }} />
+          <Divider styles={{ bottom: "-8rem", color: "#fff" }} />
         </div>
-        <div id="about" className="w-full mt-32 bg-indigo-100">
+        <div id="about" className="w-full mt-32 bg-white">
           <div className="flex flex-col max-w-6xl min-h-screen p-8 m-auto">
             <h2 className="m-8 font-serif text-4xl text-center">About</h2>
             <div className="flex flex-col items-center md:flex-row md:mt-8">
