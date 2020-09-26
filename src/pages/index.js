@@ -67,17 +67,8 @@ class IndexPage extends React.Component {
                   <span className="font-serif text-secondary">
                     10+ in leadership roles
                   </span>
-                  . An{" "}
-                  <a
-                    className="light"
-                    href="https://www.16personalities.com/intp-personality"
-                    target="_blank"
-                    rel="noreferrer nofollow"
-                  >
-                    INTP personality type
-                  </a>{" "}
-                  that Leads from the front and specialises in forging a team
-                  that communicates effectively, values{" "}
+                  . Leads from the front and specialises in forging a team that
+                  communicates effectively, values{" "}
                   <span className="font-serif text-secondary">clean code</span>{" "}
                   that's well tested,{" "}
                   <span className="font-serif text-secondary">
