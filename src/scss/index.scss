@@ -20,3 +20,19 @@ html {
     scroll-behavior: auto;
   }
 }
+
+a {
+  &.dark {
+    color: #3182ce !important;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &.light {
+    color: #db3154 !important;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

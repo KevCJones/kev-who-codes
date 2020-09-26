@@ -37,6 +37,7 @@ class IndexPage extends React.Component {
               <span className="font-serif text-primary ">Kevin Jones</span>.{" "}
               <br />A tech lead powered by coffee, author of{" "}
               <a
+                className="dark"
                 href="https://www.npmjs.com/package/ngx-simple-modal"
                 target="_blank"
                 rel="noreferrer nofollow"
@@ -68,7 +69,7 @@ class IndexPage extends React.Component {
                   </span>
                   . An{" "}
                   <a
-                    className="text-secondary"
+                    className="light"
                     href="https://www.16personalities.com/intp-personality"
                     target="_blank"
                     rel="noreferrer nofollow"
