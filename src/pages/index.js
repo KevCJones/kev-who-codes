@@ -68,6 +68,7 @@ class IndexPage extends React.Component {
                   </span>
                   . An{" "}
                   <a
+                    className="text-secondary"
                     href="https://www.16personalities.com/intp-personality"
                     target="_blank"
                     rel="noreferrer nofollow"
