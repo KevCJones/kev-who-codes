@@ -36,7 +36,11 @@ class IndexPage extends React.Component {
               Hello, I’m{" "}
               <span className="font-serif text-primary ">Kevin Jones</span>.{" "}
               <br />A tech lead powered by coffee, author of{" "}
-              <a href="https://www.npmjs.com/package/ngx-simple-modal">
+              <a
+                href="https://www.npmjs.com/package/ngx-simple-modal"
+                target="_blank"
+                rel="noreferrer nofollow"
+              >
                 ngx&#8209;simple&#8209;modal
               </a>
               , addicted to solving interesting problems.
@@ -62,8 +66,16 @@ class IndexPage extends React.Component {
                   <span className="font-serif text-secondary">
                     10+ in leadership roles
                   </span>
-                  . Leads from the front and specialises in forging a team that
-                  communicates effectively, values{" "}
+                  . An{" "}
+                  <a
+                    href="https://www.16personalities.com/intp-personality"
+                    target="_blank"
+                    rel="noreferrer nofollow"
+                  >
+                    INTP personality type
+                  </a>{" "}
+                  that Leads from the front and specialises in forging a team
+                  that communicates effectively, values{" "}
                   <span className="font-serif text-secondary">clean code</span>{" "}
                   that's well tested,{" "}
                   <span className="font-serif text-secondary">
